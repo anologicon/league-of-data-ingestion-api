@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='league_of_data_ingestion_api',
-    version='0.0.1',
+    version='0.0.2',
     zip_safe=False,
     python_requires=">=3.6",
     description='A league of legends API tools',
