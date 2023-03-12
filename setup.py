@@ -7,15 +7,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name='toolbox',
     version='0.0.1',
-    author='Paulo Raimundi',
-    author_email='pauloraimundi2009@gmail.com',
+    zip_safe=False,
+    python_requires=">=3.6",
     description='A league of legends API tools',
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url='https://github.com/anologicon/league-of-data-ingestion-api',
-    project_urls={
-        "Bug Tracker": "https://github.com/anologicon/league-of-data-ingestion-api/issues"
-    },
     license='MIT',
     packages=find_packages(),
     install_requires=[
