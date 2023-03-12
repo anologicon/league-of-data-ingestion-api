@@ -15,7 +15,7 @@ setuptools.setup(
     install_requires=[
         'requests',
         'tqdm',
-        'dotenv',
+        'python-dotenv',
         'backoff',
         'ratelimit'
     ],
