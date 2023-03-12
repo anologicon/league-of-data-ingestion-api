@@ -5,8 +5,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='leagueapi',
-    version='0.0.6',
+    name='league-api',
+    version='0.0.7',
     zip_safe=False,
     python_requires=">=3.6",
     description='A league of legends API tools',
