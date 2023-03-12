@@ -16,7 +16,7 @@ pytz==2022.7
 ratelimit==2.2.1
 requests==2.28.1
 s3transfer==0.6.0
-setuptools==65.5.0
+setuptools==67.6.0
 six==1.16.0
 toml==0.10.2
 tqdm==4.64.1

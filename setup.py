@@ -1,4 +1,5 @@
 import setuptools
+from setuptools import find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -16,7 +17,7 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/anologicon/league-of-data-ingestion-api/issues"
     },
     license='MIT',
-    packages=['service', 'repository'],
+    packages=find_packages(),
     install_requires=[
         'requests',
         'tqdm',
