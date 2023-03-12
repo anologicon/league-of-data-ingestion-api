@@ -3,12 +3,7 @@ from typing import List
 from tqdm import tqdm
 from repository.data_writer.writer_interface import WriterInterface
 import re
-import requests
 import datetime
-import os
-from random import randint
-import time
-
 
 class APIService:
     def __init__(

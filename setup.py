@@ -11,11 +11,17 @@ setuptools.setup(
     description='A league of legends API tools',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/mike-huls/toolbox',
+    url='https://github.com/anologicon/league-of-data-ingestion-api',
     project_urls = {
-        "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
+        "Bug Tracker": "https://github.com/anologicon/league-of-data-ingestion-api/issues"
     },
     license='MIT',
-    packages=['toolbox'],
-    install_requires=['requests'],
+    packages=['service', 'repository'],
+    install_requires=[
+        'requests',
+        'tqdm',
+        'dotenv',
+        'backoff',
+        'ratelimit'
+    ],
 )
