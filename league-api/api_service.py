@@ -1,7 +1,7 @@
-from repository.league_of_legends_repository import LeagueOfLegendsRepository
+from league_of_legends_repository import LeagueOfLegendsRepository
 from typing import List
 from tqdm import tqdm
-from repository.data_writer.writer_interface import WriterInterface
+from writer_interface import WriterInterface
 import re
 import datetime
 

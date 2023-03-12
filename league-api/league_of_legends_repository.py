@@ -1,14 +1,11 @@
-from requests import get, Response
 import requests
 from dotenv import load_dotenv
-import os
 from typing import List
 from backoff import on_exception, expo
 import ratelimit
-import logging
 
 load_dotenv()
-from service.base_request_service import BaseRequestService
+from base_request_service import BaseRequestService
 
 
 class LeagueOfLegendsRepository:

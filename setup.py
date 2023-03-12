@@ -11,7 +11,7 @@ setuptools.setup(
     python_requires=">=3.6",
     description='A league of legends API tools',
     license='MIT',
-    packages=['repository','service'],
+    packages=['league-api'],
     install_requires=[
         'requests',
         'tqdm',

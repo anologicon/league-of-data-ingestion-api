@@ -1,9 +1,8 @@
 from tempfile import NamedTemporaryFile
 import boto3
-import datetime
 from typing import List
 import json
-from .writer_interface import WriterInterface
+from writer_interface import WriterInterface
 import os
 from dotenv import load_dotenv
 
