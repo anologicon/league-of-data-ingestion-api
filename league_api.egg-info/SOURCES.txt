@@ -1,0 +1,16 @@
+README.md
+setup.py
+league-api/__init__.py
+league-api/api_service.py
+league-api/base_request_service.py
+league-api/league_of_legends_repository.py
+league-api/minio_writer.py
+league-api/writer_interface.py
+league_api.egg-info/PKG-INFO
+league_api.egg-info/SOURCES.txt
+league_api.egg-info/dependency_links.txt
+league_api.egg-info/not-zip-safe
+league_api.egg-info/requires.txt
+league_api.egg-info/top_level.txt
+tests/__init__.py
+tests/unit/__init__.py
