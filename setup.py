@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='league-api',
-    version='0.0.9',
+    version='0.0.10',
     zip_safe=False,
     python_requires=">=3.6",
     description='A league of legends API tools',
