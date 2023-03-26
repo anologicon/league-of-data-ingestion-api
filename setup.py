@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='league_api',
-    version='0.0.14',
+    version='0.0.15',
     zip_safe=False,
     python_requires=">=3.6",
     description='A league of legends API tools',
     license='MIT',
-    packages=find_packages(),
+    packages=['/league-api'],
     install_requires=[
         'requests',
         'tqdm',
