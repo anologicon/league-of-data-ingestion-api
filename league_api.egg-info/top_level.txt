@@ -1,1 +1,1 @@
-league-api
+league_api

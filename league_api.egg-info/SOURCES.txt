@@ -1,11 +1,11 @@
 README.md
 setup.py
-league-api/__init__.py
-league-api/api_service.py
-league-api/base_request_service.py
-league-api/league_of_legends_repository.py
-league-api/minio_writer.py
-league-api/writer_interface.py
+league_api/__init__.py
+league_api/api_service.py
+league_api/base_request_service.py
+league_api/league_of_legends_repository.py
+league_api/minio_writer.py
+league_api/writer_interface.py
 league_api.egg-info/PKG-INFO
 league_api.egg-info/SOURCES.txt
 league_api.egg-info/dependency_links.txt
